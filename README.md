@@ -1,6 +1,6 @@
 How to use:
 
-1. Open the NBA Stats link
+1. On the generator page, open the NBA Stats link
 2. Find the Rockets game and copy the box score URL
 3. Go back to the generator page and select the date of the game
 4. Paste the box score URL in the respective text field
