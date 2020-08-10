@@ -156,7 +156,7 @@ function getBasicStats(caption, points, assists, rebounds, player) {
 
 // Returns the caption with the player's percentage stats appended to it
 function getPercentageStats(caption, player) {
-    const MIN_SHOT = 0.43;
+    const MIN_SHOT = 0.42;
     const MIN_FGM = 5;
     const MIN_3PM = 3;
     const MIN_FTM = 8;
