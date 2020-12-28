@@ -23,9 +23,9 @@ function formatDate() {
 
 // Helper method that gets the game ID string from the inputted box score link
 function getGameID() {
-    const ID_START_INDEX = 27;
+    const ID_START_INDEX = 36;
     let boxScoreLink = document.getElementById("boxScoreLink").value;
-    let gameID = boxScoreLink.substring(ID_START_INDEX, boxScoreLink.length - 1);
+    let gameID = boxScoreLink.substring(ID_START_INDEX);
     return gameID;
 }
 
